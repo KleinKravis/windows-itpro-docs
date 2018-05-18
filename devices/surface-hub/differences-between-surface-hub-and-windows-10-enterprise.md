@@ -27,13 +27,13 @@ The Surface Hub's shell is designed from the ground up to be large screen and to
 
 ### Lock screen and screensaver
 
-Surface Hub doesn't have a lock screen or a screen saver, but it has a similar feature called the welcome screen. The welcome screen shows scheduled meetings from the device account's calendar, and easy entry points to the Surface Hub's top apps - Skype for Business, Whiteboard, and Connect.
+Surface Hub doesn't have a lock screen or a screen saver, but it has a similar feature called the welcome screen. The welcome screen shows scheduled meetings from the device account's calendar, and easy entry points to the Surface Hub's top apps - Skype for Business, Whiteboard, and Connect. (On Suface Hub 2 only time and date will display until a user signs in)
 
 *Organization policies that this may affect:* <br> Settings for lock screen, screen timeout, and screen saver don't apply for Surface Hub.
 
 ### User sign-in
 
-Surface Hub is designed to be used in communal spaces, such as meeting rooms. Unlike Windows PCs, anyone can walk up and use a Surface Hub without requiring a user to sign in. To enable this communal functionality, Surface Hub does not support Windows sign-in the same way that Windows 10 Enterprise does (e.g., signing in a user to the OS and using those credentials throughout the OS). Instead, there is always a local, auto signed-in, low-privilege user signed in to the Surface Hub. It doesn't support signing in any additional users, including admin users (e.g., when an admin signs in, they are not signed in to the OS).
+Surface Hub is designed to be used in communal spaces, such as meeting rooms. Unlike Windows PCs, anyone can walk up and use a Surface Hub without requiring a user to sign in. To enable this communal functionality, Surface Hub does not support Windows sign-in the same way that Windows 10 Enterprise does (e.g., signing in a user to the OS and using those credentials throughout the OS). Instead, there is always a local, auto signed-in, low-privilege user signed in to the Surface Hub. It doesn't support signing in any additional users, including admin users (e.g., when an admin signs in, they are not signed in to the OS). (On Surface Hub 2 there are user accounts for ever user. The user signs in with fingerprint)
 
 Users can sign in to a Surface Hub, but they will not be signed in to the OS. For example, when a user signs in to Apps or My Meetings and Files, the users is signed in only to the apps or services, not to the OS. As a result, the signed-in user is able to retrieve their cloud files and personal meetings stored in the cloud, and these credentials are discarded when **End session** is activated.
 
@@ -67,8 +67,7 @@ UWP apps pre-installed on Surface Hub:
 - Feedback Hub
 - File Explorer*
 - Get Started
-- Maps
-- Microsoft Edge
+- Maps- Microsoft Edge
 - Microsoft Power BI
 - OneDrive
 - Photos
